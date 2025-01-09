@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Come le Communiste Avocat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>⚖️ Come le Communiste Avocat ⚖️</h1>
+        <div class="hammer">🔨</div>
+    </header>
+    <main>
+        <section class="profile">
+            <img src="/file.jpg" alt="Tête de Come" class="profile-pic">
+            <p class="catchphrase">"La justice est comme le communisme : tout le monde devrait y avoir accès !"</p>
+        </section>
+        
+        <section class="laws">
+            <h2>📜 Le Code Come-munal 📜</h2>
+            <div class="law-article">
+                <h3>Article 1: La Justice Pour Tous</h3>
+                <p>Même les capitalistes ont droit à un avocat... mais ils paieront plus cher ! 💰</p>
+            </div>
+            <div class="law-article">
+                <h3>Article 2: Dress Code</h3>
+                <p>La robe d'avocat doit être rouge avec une étoile jaune ! ⭐</p>
+            </div>
+            <div class="law-article">
+                <h3>Article 3: Procédure</h3>
+                <p>Toute objection doit être précédée de "Camarade juge..." 👨‍⚖️</p>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Ajout du modal pour la plainte -->
+    <div id="plainteModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>📝 Déposer une plainte camarade ! 📝</h2>
+            <form id="plainteForm">
+                <div class="form-group">
+                    <label for="accusation">Motif de la plainte :</label>
+                    <select id="accusation" required>
+                        <option value="">Choisissez votre grief</option>
+                        <option value="capitalisme">Excès de capitalisme</option>
+                        <option value="bourgeoisie">Comportement bourgeois</option>
+                        <option value="exploitation">Exploitation du prolétariat</option>
+                        <option value="autre">Autre crime contre le peuple</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="details">Détails de l'accusation :</label>
+                    <textarea id="details" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Porter plainte !</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="communist-decoration">☭</div>
+    <footer>
+        <p>© 2025 Cabinet d'Avocats "La Justice du Peuple" - Tous droits collectivisés</p>
+    </footer>
+    
+    <!-- Ajout du script à la fin du body -->
+    <script src="script.js"></script>
+</body>
+</html>
